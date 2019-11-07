@@ -2,6 +2,9 @@ export const ADD_USER_FORM_UPDATED = 'ADD_USER_FORM_UPDATED';
 export const ADD_USER_FORM_VALID = 'ADD_USER_FORM_VALID';
 export const ADD_USER_FORM_INVALID = 'ADD_USER_FORM_INVALID';
 
+export const ADD_USER = 'ADD_USER';
+export const ADD_USER_SUCCESS = 'ADD_USER_SUCCESS';
+export const ADD_USER_FAIL = 'ADD_USER_FAIL';
 
 export const SHOW_ERROR = 'SHOW_ERROR';
 export const HIDE_ERROR = 'HIDE_ERROR';
