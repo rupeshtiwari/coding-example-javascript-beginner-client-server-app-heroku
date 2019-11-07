@@ -4,6 +4,38 @@ View this app live in my Heroku account
 
 https://rupesh-user-registration.herokuapp.com/
 
+
+# Validate user registration form
+
+## Must Watch Videos
+Autonomous Components: 
+One function that does only one task or operation. It will always deal with maximum 2 resources. In my example I will create components which will at the same time deal with messaging service (jquery pub sub) and DOM or STORE
+https://www.youtube.com/watch?v=xRiM_tJqzAg&list=PLZed_adPqIJrL-BW84lV03K6MZANFj89V
+
+Creating First website Workshop:
+https://www.youtube.com/watch?v=iMWEEFOVWpk&list=PLZed_adPqIJpo5MmmJNmwpTsovBiAHO78
+
+## Concepts to learn
+
+Slide Url: ( put them in your website and then share )
+https://hackmd.io/@rupeshtiwari/HJk0vFT9H
+
+jQuery Delegate:
+Attach a handler to one or more events for all elements that match the selector, now or in the future, based on a specific set of root elements.
+https://api.jquery.com/delegate/
+
+
+
+Barrels:
+When you create your own Typescript  library then you need a barrel file where you put all of your files that you want to expose to the outside world kind of public API. Normally this is an index.ts file where you want to export all of your files which will become public API. The big question is how to automatically create this index file or barrel ? Especially if you are maintaining a huge project. https://rupeshtiwari.com/create-barrel/
+Bootstrap Alerts:
+Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.
+https://getbootstrap.com/docs/4.0/components/alerts/
+
+
+
+
+
 ## Before watching this video make sure to watch
 
 ### Add / Delete / Update Usecase explaination workshop
