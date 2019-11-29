@@ -10,6 +10,6 @@ export function publishAddUser() {
   const name = $('#name').val();
   const email = $('#email').val();
   const user = new User(name, email);
-
+  
   $.publish(ADD_USER, user);
 }
