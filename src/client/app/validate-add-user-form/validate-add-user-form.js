@@ -3,6 +3,9 @@ import { ADD_USER_FORM_INVALID, ADD_USER_FORM_UPDATED, ADD_USER_FORM_VALID } fro
 $.subscribe(ADD_USER_FORM_UPDATED, validateAddUserForm);
 
 export function validateAddUserForm(message, user) {
+  
+  console.log(`---Validating user---`);
+
   const nameResult = isNameValid(user.name);
   const emailResult = isEmailValid(user.email);
 

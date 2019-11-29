@@ -5,11 +5,22 @@ $(() => {
   $('#userForm').delegate('input', 'input', publishAddUserFormUpdatedMessage);
 });
 
+let schedule;
+
 export function publishAddUserFormUpdatedMessage() {
   const fullName = $('#name').val();
   const email = $('#email').val();
 
   const user = new User(fullName, email);
 
-  $.publish(ADD_USER_FORM_UPDATED, user);
+  console.log(`---Registration Form Updating---`);
+
+  if (schedule) {
+    clearTimeout(schedule);
+  }
+
+  schedule = setTimeout(() => {
+    console.log(`---Publishing ADD_USER_FORM_UPDATED Event---`);
+    $.publish(ADD_USER_FORM_UPDATED, user);
+  }, 500);
 }
