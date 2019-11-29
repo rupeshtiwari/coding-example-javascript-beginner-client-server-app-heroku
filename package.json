@@ -4,7 +4,8 @@
   "description": "User Registration JavaScript Application",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
-    "serve": "webpack-dev-server"
+    "serve": "webpack-dev-server",
+    "start": "node src/server"
   },
   "engines": {
     "node": "12.x"
