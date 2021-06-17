@@ -2,7 +2,7 @@
 We will create an JavaScript app which we will compile using webpack since we will use ES6 features.
 View this app live in my Heroku account
 
-https://rupesh-user-registration.herokuapp.com/
+ https://rupesh-user-registration-demo.herokuapp.com/
 
 
 # Validate user registration form
